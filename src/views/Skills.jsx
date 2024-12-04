@@ -37,7 +37,7 @@ const Skills = () => {
           }`}
           style={{ fontFamily: "Montserrat, sans-serif" }}
         >
-          Technologies I Master
+          Technical Knowledge Base
         </h2>
         <br/>
         <p

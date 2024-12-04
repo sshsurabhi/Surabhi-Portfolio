@@ -77,7 +77,7 @@ const Projects = () => {
           fontFamily: "'Montserrat', sans-serif",
         }}
       >
-        Turning ideas in to reality !
+        Crafting Digital Solutions -- Turning ideas in to reality !
       </h3>
 
       <style jsx>
