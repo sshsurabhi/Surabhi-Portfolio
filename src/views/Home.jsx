@@ -31,7 +31,7 @@ const Home = () => {
         >
           <div>
             <motion.h1
-              className="text-3xl tracking-tight font-semibold sm:text-4xl md:text-5xl"
+              className="text-3xl tracking-tight font-bold sm:text-4xl md:text-5xl"
               style={{
                 fontFamily: "Poppins, cambria", // New font for headings
                 color: darkMode ? "white" : "#FF6F00", // White text for dark mode
@@ -46,7 +46,7 @@ const Home = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.7 }}
               >
-                Hello, I am Sai Sri Harsha Surabhi
+                Sai Sri Harsha Surabhi
               </motion.span>
               <br />
               <span className="block text-[#FF6F00] z-0 lg:inline">
