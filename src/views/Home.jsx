@@ -124,7 +124,7 @@ const Home = () => {
                   duration={500}
                   className="flex items-center justify-center px-5 py-3 border border-round text-base font-semibold text-white bg-transparent hover:bg-[#FF6F00] hover:text-white transition duration-300"
                 >
-                  Contact 📞
+                  Contact 📲
                 </Link>
               </motion.div>
             </div>

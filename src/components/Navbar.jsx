@@ -30,10 +30,10 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
         {/* Logo Section */}
-        <div className="flex items-center cursor-pointer">
+        <div className="flex items-center cursor-pointer hover:bg-[#FF6F00] squared-full p-0 transition duration-300">
           <Link to="/" spy={true} smooth={true} duration={500} offset={-50} className="flex items-center">
             <img
-              src="https://img.icons8.com/external-others-inmotus-design/67/external-H-round-latin-keyboard-others-inmotus-design-2.png" // Use your icon URL here
+              src="https://img.icons8.com/external-others-inmotus-design/67/external-H-alphabet-others-inmotus-design-14.png" // Use your icon URL here
               alt="Logo"
               className={`w-10 h-10 transition-all duration-300 hover:scale-105 ${
                 darkMode ? "hover:text-gray-700" : "hover:text-gray-700"
@@ -57,7 +57,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-50}
-                    className={`block py-2 px-3 rounded-md text-white hover:bg-[#FF6F00] ${
+                    className={`block py-2 px-3 rounded-md text-black hover:bg-[#FF6F00] ${
                       darkMode
                         ? "text-black hover:bg-[#FF6F00] hover:text-white"
                         : "text-white hover:bg-[#FF6F00] hover:text-black"
