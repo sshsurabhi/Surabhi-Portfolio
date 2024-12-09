@@ -4,7 +4,7 @@ import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import abstract from "../assets/home.jpg";
+import abstract from "../assets/cont.jpg";
 // import cloudDark from "../assets/cloudDark.png";
 import CV from "../assets/surabhi.pdf";
 
@@ -69,22 +69,26 @@ const Home = () => {
 
             {/* New Paragraph with Additional Information */}
             <div className="flex justify-center">
-              <motion.p
-                className="mt-3 text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl text-center"
-                style={{
-                  fontFamily: "Lato, Cambria", // New font for text
-                  color: darkMode ? "white" : "#FF6F00", // White text for dark mode
-                }}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1.5, duration: 1 }} // Adjust the delay for a nice effect
+              <div
+                className={`mt-3 p-5 border border-gray-300 rounded-md bg-gray-200`} // Add a grey background and border
               >
-              A dedicated DevOps Engineer with a robust background in Software Development with Python.
-              I specialize in AWS, Infrastructure as Code (IaC), Kubernetes, and CI/CD pipelines.
-              With a comprehensive understanding of the software lifecycle—from coding to cloud deployment.
-              I am passionate about optimizing processes and delivering scalable solutions. It's a pleasure to connect...!
-              </motion.p>
-            </div>            
+                <motion.p
+                  className="text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl text-center"
+                  style={{
+                    fontFamily: "Lato, Cambria", // New font for text
+                    color: darkMode ? "Black" : "#FF6F00", // White text for dark mode
+                  }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.5, duration: 1 }} // Adjust the delay for a nice effect
+                >
+                  A dedicated DevOps Engineer with a robust background in Software Development with Python.
+                  I specialize in AWS, Infrastructure as Code (IaC), Kubernetes, and CI/CD pipelines.
+                  With a comprehensive understanding of the software lifecycle—from coding to cloud deployment.
+                  I am passionate about optimizing processes and delivering scalable solutions. It's a pleasure to connect...!
+                </motion.p>
+              </div>
+            </div>          
             <div className="flex justify-center mt-4 space-x-4">
               {contactLinks.map((el) => (
                 <motion.a
