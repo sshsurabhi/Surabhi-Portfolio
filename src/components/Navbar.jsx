@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
       <nav
         className={`border-gray-400 z-50 shadow-lg md:px-8 px-5 fixed w-full top-0 ${
-          darkMode ? "bg-gray-300" : "bg-gray-300"
+          darkMode ? "bg-gray-600" : "bg-gray-300"
         }`}
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
