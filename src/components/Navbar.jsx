@@ -13,6 +13,7 @@ const Navbar = () => {
     { name: "Home", route: "/" },
     { name: "About", route: "about" },
     { name: "Skills", route: "skills" },
+    { name: "Certifications", route: "services" },
     { name: "Projects", route: "projects" },
     { name: "Contact", route: "contact" },
   ];
@@ -29,21 +30,21 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
-        {/* Logo Section */}
-        <div className="flex items-center cursor-pointer hover:bg-[#FF6F00] squared-full p-0 transition duration-300">
-          <Link to="/" spy={true} smooth={true} duration={500} offset={-50} className="flex items-center">
-            <img
-              src="https://img.icons8.com/external-others-inmotus-design/67/external-H-alphabet-others-inmotus-design-14.png" // Use your icon URL here
-              alt="Logo"
-              className={`w-10 h-10 transition-all duration-300 hover:scale-105 ${
-                darkMode ? "hover:text-gray-700" : "hover:text-gray-700"
-              }`}
-              style={{
-                cursor: 'pointer',
-              }}
-            />
-          </Link>
-        </div>
+          {/* Logo Section */}
+          <div className="flex items-center cursor-pointer hover:bg-[#FF6F00] squared-full p-0 transition duration-300">
+            <Link to="/" spy={true} smooth={true} duration={500} offset={-50} className="flex items-center">
+              <img
+                src="https://img.icons8.com/external-others-inmotus-design/67/external-H-alphabet-others-inmotus-design-14.png" // Use your icon URL here
+                alt="Logo"
+                className={`w-10 h-10 transition-all duration-300 hover:scale-105 ${
+                  darkMode ? "hover:text-gray-700" : "hover:text-gray-700"
+                }`}
+                style={{
+                  cursor: 'pointer',
+                }}
+              />
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden justify-between items-center w-full md:flex md:w-auto">

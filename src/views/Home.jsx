@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import abstract from "../assets/img.jpeg";
 // import cloudDark from "../assets/cloudDark.png";
-import CV from "../assets/surabhi.pdf";
+import CV from "../assets/Surabhi_en.pdf";
 import resume from "../assets/surabhi_de.pdf";
 
 const Home = () => {

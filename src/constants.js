@@ -49,27 +49,63 @@ export const contactLinks = [
 
 export const serviceData = [
   {
-    name: 'Web Application Development',
-    desc: 'Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine',
-    img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"
+    name: "GitLab",
+    img: "https://img.icons8.com/color/48/gitlab.png", // Example icon URL
+    link: "https://files.datascientest.com/certification/424c09ae-5cd7-4e00-88ed-c2e1c76540d8.pdf", // Link to GitLab
   },
-
   {
-    name: 'Mobile Application Development',
-    desc: `We provide a range of mobile application development services
-    including custom mobile development on Android platforms, building
-    cross-platform apps, designing user experience and integrating
-    novel mobile interfaces such as chat and voice`,
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
+    name: "Ansible",
+    img: "https://img.icons8.com/color/48/ansible.png",
+    link: "https://files.datascientest.com/certification/7df8f1af-b722-4066-81ab-207568221422.pdf",
   },
-
   {
-    name: 'Backend Development',
-    desc: `Graphic design is a craft where professionals create visual
-    content to communicate messages. By applying visual hierarchy and
-    page layout techniques, designers use typography and pictures to
-    meet users' specific needs and focus on the logic of displaying
-    elements in interactive designs, to optimize the user experience.`,
-    img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
+    name: "Docker",
+    img: "https://img.icons8.com/color/48/docker.png",
+    link: "https://files.datascientest.com/certification/0d2676c9-04e3-41a3-b7f5-b1b504eae8b9.pdf",
   },
-]
+  {
+    name: "Linux",
+    img: "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Linux-logos-and-brands-those-icons-flat-those-icons.png",
+    link: "https://files.datascientest.com/certification/59f1a404-bd70-4ac3-ad1a-7371c2804561.pdf", // Link to AWS
+  },
+  {
+    name: "Terraform",
+    img: "https://img.icons8.com/color/48/terraform.png", // Example icon URL
+    link: "https://files.datascientest.com/certification/27e14f15-26bc-49a4-a9bb-5382ff2bb448.pdf", // Link to Ansible
+  },
+  {
+    name: "Kubernetes",
+    img: "https://img.icons8.com/color/48/kubernetes.png",
+    link: "https://files.datascientest.com/certification/49564ece-db36-4942-b37e-9be3cf057d75.pdf",
+  },
+  {
+    name: "Jenkins",
+    img: "https://img.icons8.com/color/48/jenkins.png",
+    link: "https://files.datascientest.com/certification/122a54ab-3b8b-4745-956d-f63a838a527e.pdf",
+  },
+  {
+    name: "MongoDB",
+    img: "https://img.icons8.com/color/48/mongo-db.png",
+    link: "https://files.datascientest.com/certification/aa60d0cd-3023-4fbf-9009-f2dc4bd9a830.pdf",
+  },
+  {
+    name: "Python",
+    img: "https://img.icons8.com/color/48/python--v1.png",
+    link: "https://files.datascientest.com/certification/6689d3b9-e053-46dd-ab60-fb8fa6b2a5b8.pdf",
+  },
+  {
+    name: "DevOps Engineer",
+    img: "https://img.icons8.com/external-flat-juicy-fish/60/external-dev-coding-and-development-flat-flat-juicy-fish.png",
+    link: "https://files.datascientest.com/diploma/63f318bc-13b0-46f0-a54f-391032649eac.pdf",
+  },
+  {
+    name: "SQL",
+    img: "https://img.icons8.com/external-soft-fill-juicy-fish/60/external-sql-servers-and-networks-soft-fill-soft-fill-juicy-fish.png",
+    link: "https://files.datascientest.com/certification/7dccde55-f778-4a9b-a3f2-a04e420c8470.pdf",
+  },
+  {
+    name: "Bash",
+    img: "https://img.icons8.com/officel/80/console.png",
+    link: "https://files.datascientest.com/certification/34da3b57-89aa-4931-a6e2-f27ddb5306d0.pdf",
+  },
+];
